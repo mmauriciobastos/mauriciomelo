@@ -1,0 +1,649 @@
+/*
+#------------------------------------------------------------------------
+# Music State - October Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+.blog-featured article {
+    padding: 0!important;
+}
+
+/* Backgrounds */
+.frontpage.dark-bottom #gkDarkBottom {
+	background-image: url('../images/common/dark_bottom_bg_mobile.jpg');
+}
+.frontpage #gkBottom3 {
+	background-image: url('../images/common/people_bg_mobile.jpg');
+}
+#gkBottomSection,
+body.style1 #gkBg #gkBottomSection {
+	background-image: url('../images/style1/bottom_bg_mobile.jpg');
+}
+body.style2 #gkBg #gkBottomSection {
+	background-image: url('../images/style2/bottom_bg_mobile.jpg');
+}
+body.style3 #gkBg #gkBottomSection {
+	background-image: url('../images/style3/bottom_bg_mobile.jpg');
+}
+body.style4 #gkBg #gkBottomSection {
+	background-image: url('../images/style4/bottom_bg_mobile.jpg');
+}
+body.style5 #gkBg #gkBottomSection {
+	background-image: url('../images/style5/bottom_bg_mobile.jpg');
+}
+body.style6 #gkBg #gkBottomSection {
+	background-image: url('../images/style6/bottom_bg_mobile.jpg');
+}
+
+/* Other CSS styles */
+
+/* Menu */
+#gkTopBar,
+#gkMenuWrap #gkTopBar {
+	display: none;
+}
+#gkLogo {
+	margin-left: 10px!important;
+}
+#gkLogo.text {
+	line-height: 60px;
+}
+#gkMenuWrap #gkLogo.cssLogo {
+	margin-top: 8px;
+}
+#gkMobileMenu {
+	margin: 8px 0 4px 0!important;
+}
+#gkMenuWrap {
+	min-height: 60px;
+}
+#gkHeader.gkNoMenu {
+	padding-top: 60px;
+}
+#gkLogin {
+	padding: 0 10px;
+	right: 50px;
+	top: 11px;
+}
+#gkLogo.text .gkLogoSlogan {
+	margin-top: -10px;
+}
+
+/* Containers */
+.gkPage {
+	padding: 0 10px!important;
+}
+#gkHeader {
+	margin-bottom: 20px;
+}
+.grey-content #gkMainbody {
+	margin: 0 auto;
+	max-width: 300px;
+}
+#gkSidebar .box,
+#gkBottom1 .box,
+#gkBottom2 .box,
+#gkBottom3 .box,
+#gkBottom4 .box,
+#gkBottom5 .box {
+	clear: both!important;
+	float: none!important;
+	margin: 0 auto;
+	max-width: 300px;
+	width: 100%;
+}
+#gkBottom1 .box,
+#gkBottom2 .box,
+#gkBottom3 .box,
+#gkBottom4 .box,
+#gkBottom5 .box {
+	margin-bottom: 20px;	
+}
+#gkSidebar > div {
+	margin-top: 20px!important;
+	padding-top: 25px!important;
+}
+#gkSidebar > div > .box {
+	float: none;
+	margin-bottom: 12px!important;
+	width: 100%;
+}
+#gkSidebar .box:nth-child(2n+1) {
+	clear: both!important;
+}
+#gkSidebar .box:nth-child(odd) {
+	margin-left: auto!important;
+	margin-right: auto!important;	
+}
+#gkSidebar > div > .box:nth-child(even) {
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
+
+/* limitation suffixes */
+.notablet {
+	display: block!important;
+}
+.nomobile {
+	display: none!important;
+}
+.onlytablet {
+	display: none!important;
+}
+.onlymobile {
+	display: block!important;
+}
+.notablet.nomobile {
+	display: none!important;
+}
+
+/* Fix for the user profile */
+.profile dt {
+	width: 100% !important;
+}
+
+/* Fix for the contact page */
+.contact .contact-image {
+	float: left !important;
+}
+.contact .contact-address {
+	clear: both !important;
+	padding-top: 20px !important;
+}
+.contact .contact-form input,
+.contact .contact-form textarea {
+	width: 100% !important;
+}
+
+/* Fix for the search */
+fieldset.word #search-searchword,
+fieldset.word .inputbox {
+	width: 50%;
+}
+fieldset.phrases .ordering-box,
+fieldset.only input[type="checkbox"],
+fieldset.phrases input[type="radio"] {
+	clear: both;
+}
+
+/* Fix for the register */
+#member-registration dd {
+	clear: both !important;
+	display: block !important;
+}
+
+/* Fix for tables */
+fieldset {
+	box-sizing: border-box!important;
+	max-width: 100%!important;
+	width: 100%!important;
+	overflow: hidden;
+}
+#gkMainbody table:before {
+	content: "Scroll horizontally to view the whole table";
+	height: 14px;
+	width: 100%;
+	display: block;
+	font-size: 10px;
+	margin-top: -30px;
+	margin-bottom: 10px;
+	font-family: Arial, sans-serif;
+}
+#gkMainbody table {
+	width: 540px!important;
+	display: block!important;
+	padding: 30px 0 20px 0; /* padding for the scrollbars and the top message */
+	overflow:scroll;
+	-webkit-overflow-scrolling:touch;
+}
+#gkMainbody table tbody,
+#gkMainbody table thead,
+#gkMainbody table tfoot {
+	width: 540px!important;
+	display: table;
+}
+
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) and (-moz-max-device-pixel-ratio: 1.5), only screen and (max-device-width: 320px) and (-o-max-device-pixel-ratio: 1.5/1), only screen  and (max-device-width: 320px) and (-webkit-max-device-pixel-ratio: 1.5), only screen and (max-device-width: 320px) and (max-device-pixel-ratio: 1.5), only screen and (max-device-width: 640px) and (-moz-min-device-pixel-ratio: 2), only screen and (max-device-width: 640px) and (-o-min-device-pixel-ratio: 2/1), only screen and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-device-width: 640px) and (min-device-pixel-ratio: 2) {
+	#gkMainbody table {
+		width: 260px!important;
+	}
+}
+
+@media only screen and (max-width: 480px) and (orientation:landscape), only screen and (max-device-width: 480px) and (-moz-max-device-pixel-ratio: 1.5) and (orientation:landscape), only screen and (max-device-width: 480px) and (-o-max-device-pixel-ratio: 1.5/1) and (orientation:landscape), only screen  and (max-device-width: 480px) and (-webkit-max-device-pixel-ratio: 1.5) and (orientation:landscape), only screen and (max-device-width: 480px) and (max-device-pixel-ratio: 1.5) and (orientation:landscape), only screen and (max-device-width: 960px) and (-moz-min-device-pixel-ratio: 2) and (orientation:landscape), only screen and (max-device-width: 960px) and (-o-min-device-pixel-ratio: 2/1) and (orientation:landscape), only screen and (max-device-width: 960px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:landscape), only screen and (max-device-width: 960px) and (min-device-pixel-ratio: 2) and (orientation:landscape) {
+	#gkMainbody table {
+		width: 420px!important;
+	}
+}
+
+/* top/bottom modules */
+.box.gkmod-1,
+.box.gkmod-2,
+.box.gkmod-3,
+.box.gkmod-4,
+.box.gkmod-more {
+	float: left!important;	
+}
+.box.gkmod-1,
+.box.gkmod-2,
+.box.gkmod-3,
+.box.gkmod-4,
+.box.gkmod-more {
+	width: 100%!important;
+}
+.box.gkmod-more.gkmod-last-1:last-child,
+.box.gkmod-more.gkmod-last-2:last-child,
+.box.gkmod-more.gkmod-last-2:nth-last-child(2),
+#gkPageWrap .box.gkmod-more.gkmod-last-3:last-child,
+#gkPageWrap .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+#gkPageWrap .box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+	width: 100%!important;
+}
+
+/* top/bottom modules */
+body #gkPage .box {
+	margin-bottom: 20px!important;
+}
+
+/* 3-column layout */
+.gkCols3 .box.gkmod-more:nth-child(1n) {
+	clear: both;
+}
+.gkCols3 .box.gkmod-1,
+.gkCols3 .box.gkmod-2,
+.gkCols3 .box.gkmod-3,
+.gkCols3 .box.gkmod-more,
+.gkCols3 .box.gkmod-more.gkmod-last-1:last-child,
+.gkCols3 .box.gkmod-more.gkmod-last-2:last-child,
+.gkCols3 .box.gkmod-more.gkmod-last-2:nth-last-child(2) {
+	width: 100%!important;
+}
+
+/* 4-column layout */
+body .gkCols4 .box.gkmod-more:nth-child(1n) {
+	clear: both;
+}
+body .gkCols4 .box.gkmod-1,
+body .gkCols4 .box.gkmod-2,
+body .gkCols4 .box.gkmod-3,
+body .gkCols4 .box.gkmod-4,
+body .gkCols4 .box.gkmod-more,
+body .gkCols4 .box.gkmod-more.gkmod-last-1:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-2:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-2:nth-last-child(2),
+body .gkCols4 .box.gkmod-more.gkmod-last-3:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+body .gkCols4 .box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+	width: 100%!important;
+}
+
+/* 6-column layout */
+body .gkCols6 .box.gkmod-more:nth-child(1n) { 
+	clear: both; 
+}
+body .gkCols6 .box.gkmod-1,
+body .gkCols6 .box.gkmod-2,
+body .gkCols6 .box.gkmod-3,
+body .gkCols6 .box.gkmod-4,
+body .gkCols6 .box.gkmod-more,
+body .gkCols6 .box.gkmod-5,
+body .gkCols6 .box.gkmod-more,
+body .gkCols6 .box.gkmod-6,
+body .gkCols6 .box.gkmod-more,
+body .gkCols6 .box.gkmod-more.gkmod-last-1:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-2:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-2:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-3:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-3:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(4),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(4),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(5) {
+	width: 100%!important;
+}
+
+/* article fix */
+#gkContent article > time {
+	display: none!important;
+}
+#gkContent article > time + header {
+	padding-left: 0!important;
+}
+#gkContent article header li.itemDate,
+#gkContent article header li.item-date {
+	display: block;
+}
+article header ul {
+	margin: 0 0 10px;
+}
+
+/* NSP adjustments */
+.nspArtPage .nspArt {
+	border-top: 1px solid #eee!important;
+	border-left: none!important;
+	padding-bottom: 20px!important;
+	padding-top: 20px!important;
+	width: 100%!important;
+}
+.nspArtPage .nspArt:first-child {
+	border-top: none!important;
+}
+
+/* other elements */
+article header h1, 
+.category header {
+	line-height: 32px;
+	padding: 18px 0 0px;
+}
+
+article header h1, 
+.category header, 
+article header h2 {
+	font-size: 24px;
+}
+
+h1,
+#member-registration > fieldset > legend {
+	font-size: 28px;
+}
+
+h2, 
+.componentheading,
+.category header h2 {
+	font-size: 28px;
+}
+
+article header h2 {
+	line-height: 32px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+#gkSocialAPI {
+	overflow: hidden;
+}
+
+.cols-2 .column-2, 
+.cols-3 .column-3 {
+	padding: 0!important;
+}
+
+.itemComments .itemCommentsList li img {
+	float: left;
+	margin-left: 0;
+	margin-right: 10px;
+	position: static;
+}
+
+.itemCommentsList li h3 {
+	float: none;
+	margin-top: 5px;
+}
+
+#gkMainbody .registration {
+	width: 100%;
+}
+
+dl#tabs dt.tabs, dl.tabs dt.tabs {
+	border-right: none;
+	width: 100%;
+}
+
+/* Tabs */
+.gkTabsWrap ol li {
+	border-left: none;
+	width: 100%;
+}
+
+/* NSP */
+.box.header .nspImageWrapper h4 {
+	font-size: 14px!important;
+}
+
+.nspArts,
+.nspLinksWrap {
+	clear: both;
+	float: left!important;
+	width: 100%!important;
+}
+
+.nspArt .nspImageWrapper {
+	width: 100%;
+}
+#gkFooterNav li {
+	float: none;
+}
+
+/* IS */
+.gkIsWrapper-gk_musicstate {
+	 min-height: initial;
+}
+
+/* K2 fixes */
+.itemBody.containsItemInfo, 
+.itemOtherElements.containsItemInfo,
+.itemListView .itemBlock.containsItemInfo {
+	margin-left: 0!important;
+}
+#k2Container .itemContainer{width:100%!important;}
+#k2Container .subCategoryContainer{width:100%!important;}
+#k2Container .subCategory{height:auto!important;}
+aside.itemAsideInfo {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 20px 0!important;
+	position: static!important;
+	width: 100%!important;
+}
+.itemCommentsList li > div > div > span {
+	clear: both;
+	display: block;
+}
+.itemCommentsList li > div {
+	margin-left: 0!important;
+	padding-left: 0!important;
+}
+.itemComments h3 {
+	font-size: 20px;
+	padding: 10px 0 0;
+}
+.items-row > div {
+	margin-bottom: 10px;
+	padding: 0!important;
+}
+article header h1,
+article header h2 {
+	font-size: 24px!important;
+	line-height: 1.2;
+}
+.genericView .itemView {
+	padding: 0!important;
+	width: 100%!important;
+}
+.itemAuthorDetails {
+	clear: both;
+	margin: 0!important;
+	padding: 10px;
+}
+.itemAuthorData {
+	padding: 0;
+}
+.itemAuthorData img {
+	display: block;
+	margin: 0 0 20px 0;
+}
+.itemAuthorBlock > .gkAvatar > img {
+	margin: 12px!important;
+}
+.itemComments h3, 
+.itemAuthorContent h3 {
+	padding: 0 0 24px;
+}
+.itemComments p {
+	clear: both;
+} 
+.itemComments .itemCommentsList li span {
+	font-size: 12px;
+	margin: 0 12px 0 0;
+	clear: both;
+	float: left;
+}
+.itemComments .itemCommentsList li > img, 
+.k2LatestCommentsBlock img, 
+.itemAuthorBlock > .gkAvatar > img {
+	margin: 10px 0;
+}
+.itemComments .itemCommentsList li {
+	padding: 24px 0 12px 0;
+}
+#gkPopupLogin {
+	margin-left: -150px;
+	width: 300px;
+}
+.gkPopupWrap {
+	padding: 15px;
+}
+.gkPopupWrap h3 {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 0 0 10px;
+}
+
+/* Subpages */
+.contact-form dl {
+	float: left;
+	width: 100%;
+}
+.support .gkIcon {
+	margin: 0 0 10px;
+	width: 50%;
+}
+.support small {
+	width: 100%;
+}
+.hosting .features > div {
+	margin: 0 0 3% 0;
+	width: 100%;
+}
+
+/* Frontpage elements */
+.frontpage.dark-bottom .gkDarkBottom + #gkBottom1 {
+	margin-top: -300px;
+}
+.newsletter input[type="email"] {
+	max-width: 400px;
+	width: 90%;
+}
+.nspMain.grid-left-img .nspInfo2, 
+.nspMain.grid-right-img .nspInfo2 {
+	bottom: 0;
+}
+.nspMain.grid-big-title .nspHeader, 
+.nspMain.grid-big-title .nspHeader a {
+	font-size: 15px;
+}
+.newsletter p {
+	font-size: 14px;
+}
+.frontpage #gkBottom3 {
+	padding: 115px 0;
+}
+.gkGridGK5 .nspArtPage .nspArt {
+	padding-bottom: 0!important;
+	padding-top: 0!important;
+}
+.gkTitle {
+	font-size: 28px;
+}
+.gkSubtitle {
+	font-size: 14px;
+}
+.frontpage.dark-bottom #gkPageContent {
+	padding: 0 0 400px 0;
+}
+.nspMain.grid-big-img .gkArtContentWrap {
+	background: #fff;
+	width: 100%;
+}
+.nspMain.grid-big-img .nspImageWrapper {
+	display: none;
+}
+#gkBottom5 .bigtitle .header {
+	font-size: 24px;
+}
+#gkBottom5 .header, #gkBottom5 h3 {
+	font-size: 20px;
+}
+#gkFooter > div {
+	padding: 28px 10px!important;
+}
+.bigtitle .header {
+	font-size: 22px;
+	margin: 0 0 20px;
+}
+.frontpage .cMods-TopMembers > div {
+	padding: 12px 0;
+}
+#gkBottomSection {
+	padding: 200px 0 50px 0;
+}
+#gkBottomSection:before {
+	height: 270px;
+}
+.nspMain.grid-left-img .nspInfo1, 
+.nspMain.grid-right-img .nspInfo1 {
+	font-size: 11px;
+}
+.nspMain.grid-left-img .nspHeader, 
+.nspMain.grid-right-img .nspHeader, 
+.nspMain.grid-left-img .nspHeader a, 
+.nspMain.grid-right-img .nspHeader a {
+	font-size: 14px;
+}
+.bigtitle-left .header {
+	font-size: 40px;
+}
+
+/* JomSocial */
+#community-wrap .cGuest {
+	min-height: 400px;
+}
+#community-wrap .cGuest > div {
+	bottom: 0;
+	padding: 100px 0 0 0;
+}
+#community-wrap .cGuest a {
+	font-size: 18px;
+	padding: 0 16px;
+}
+#community-wrap .cGuest:before {
+	height: 400px;
+}
+#community-wrap #activity-more .more-activity-text {
+	margin: -40px 0 0;
+}

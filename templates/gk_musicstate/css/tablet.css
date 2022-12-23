@@ -1,0 +1,391 @@
+/*
+#------------------------------------------------------------------------
+# Music State - October Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+/* Backgrounds */
+.frontpage.dark-bottom #gkDarkBottom {
+	background-image: url('../images/common/dark_bottom_bg_tablet.jpg');
+	background-position: center center;
+}
+.frontpage #gkBottom3 {
+	background-image: url('../images/common/people_bg_tablet.jpg');
+	background-position: center bottom;
+}
+#gkBottomSection
+body.style1 #gkBg #gkBottomSection {
+	background-image: url('../images/style1/bottom_bg_tablet.jpg');
+}
+body.style2 #gkBg #gkBottomSection {
+	background-image: url('../images/style2/bottom_bg_tablet.jpg');
+}
+body.style3 #gkBg #gkBottomSection {
+	background-image: url('../images/style3/bottom_bg_tablet.jpg');
+}
+body.style4 #gkBg #gkBottomSection {
+	background-image: url('../images/style4/bottom_bg_tablet.jpg');
+}
+body.style5 #gkBg #gkBottomSection {
+	background-image: url('../images/style5/bottom_bg_tablet.jpg');
+}
+body.style6 #gkBg #gkBottomSection {
+	background-image: url('../images/style6/bottom_bg_tablet.jpg');
+}
+body #gkBg #gkBottomSection,
+body.frontpage #gkBg #gkBottom3,
+body.frontpage #gkBg #gkDarkBottom {
+	background-attachment: scroll!important;
+}
+
+/* Other CSS styles */
+body,
+.box {
+	font-size: 14px;
+}
+small {
+	font-size: 90%;
+}
+.gkPage {
+	padding: 0 15px;
+}
+/* Containers */
+#gkPageContent {
+	background-image: none!important;
+}
+#gkContent, 
+#gkSidebar,
+#gkContentWrap {
+	width: 100% !important;
+}
+#gkContentWrap {
+	margin-top: 20px;
+	padding: 0!important;
+}
+#gkSidebar .box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#gkSidebar {
+	padding: 0!important;
+}
+#gkSidebar .box {
+	float: left;
+	margin-top: 0!important;
+	margin-bottom: 30px!important;
+	margin-right: 2%!important;
+	width: 48%;
+}
+#gkSidebar .box:nth-child(even) {
+	margin-left: 2%!important;
+	margin-right: 0!important;
+}
+#gkSidebar.gkOnlyOne .box,
+#gkInset.gkOnlyOne .box {
+	width: 100%!important;
+}
+
+#gkSidebar .box:nth-child(2n+1) {
+	clear: both!important;
+}
+
+/* Limitation suffixes */
+.onlydesktop {
+	display: none!important;
+}
+
+.notablet {
+	display: none!important;
+}
+.nomobile {
+	display: block!important;
+}
+.onlytablet {
+	display: block!important;
+}
+.onlymobile {
+	display: none!important;
+}
+.notablet.nomobile {
+	display: none!important;
+}
+
+/* Fix for the contact page */
+.contact .contact-image {
+	float: left !important;
+}
+.contact .contact-address {
+	clear: both !important;
+	padding-top: 20px !important;
+}
+.contact .contact-form input[type="text"],
+.contact .contact-form input[type="email"],
+.contact .contact-form textarea {
+	width: 95% !important;
+}
+
+/* K2 edit popup */
+#sbox-window,
+#sbox-window iframe {
+	width: 720px!important;
+	max-width: 720px!important;
+	left: 10px!important;
+}
+
+/* menu */
+#gkExtraMenu {
+	display: none!important;
+}
+#aside-menu #gkExtraMenu {
+    display: block!important;
+}
+#gkMainMenu {
+	display: none;
+}
+#gkMobileMenu select {
+	width: 44px;
+	height: 44px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#gkMobileMenu {
+	color: #fff!important;
+	display: block!important;
+	float: right;
+	font-size: 32px;
+	height: 44px;
+	line-height: 44px;
+	margin: 15px 15px 10px 0!important;
+	position: relative;
+	text-align: center;
+	width: 44px;
+}
+#gkMobileMenu i {
+	color: #fff!important;
+	padding: 0!important;
+}
+#gkMenuWrap #gkMobileMenu {
+	color: #fff!important;
+	margin: 12px 0 10px 0;
+}
+#gkLogin {
+	right: 64px;
+}
+
+/* top/bottom modules */
+
+/* 4-column layout */
+body .gkCols4 .box {
+	margin-bottom: 30px!important;
+}
+body .gkCols4 .box.gkmod-1 {
+	width: 100%;	
+}
+body .gkCols4 .box.gkmod-2 {
+	width: 50%;
+}
+body .gkCols4 .box.gkmod-3 {
+	width: 50%;
+}
+body .gkCols4 .box.gkmod-4,
+body .gkCols4 .box.gkmod-more {
+	width: 50%;
+}
+body .gkCols4 .box:nth-child(2n+1) {
+	clear: both;
+}
+body .gkCols4 .box.gkmod-more.gkmod-last-1:last-child {
+	width: 100%!important;
+}
+body .gkCols4 .box.gkmod-more.gkmod-last-2:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-2:nth-last-child(2) {
+	width: 50%!important;
+}
+body .gkCols4 .box.gkmod-more.gkmod-last-3:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+body .gkCols4 .box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+	width: 50%!important;
+}
+
+/* 6-column layout */
+body .gkCols6 .box {
+	margin-bottom: 30px!important;
+}
+body .gkCols6 .box.gkmod-1 {
+	width: 100%;	
+}
+body .gkCols6 .box.gkmod-2 {
+	width: 50%;
+}
+body .gkCols6 .box.gkmod-3 {
+	width: 33.3%;
+}
+body .gkCols6 .box.gkmod-4,
+body .gkCols6 .box.gkmod-more {
+	width: 33.3%;
+}
+body .gkCols6 .box.gkmod-5,
+body .gkCols6 .box.gkmod-more {
+	width: 33.3%;
+}
+body .gkCols6 .box.gkmod-6,
+body .gkCols6 .box.gkmod-more {
+	width: 33.3%;
+}
+body .gkCols6 .box:nth-child(3n+1) {
+	clear: both;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-1:last-child {
+	width: 100%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-2:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-2:nth-last-child(2) {
+	width: 50%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-3:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+	width: 33.3%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-4:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(4) {
+	width: 33.3%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-5:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(4),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(5) {
+	width: 33.3%!important;
+}
+
+.items-row > div {
+	margin-bottom: 50px;
+	padding: 0!important;
+}
+
+/* Suffixes and other elements */
+
+/* Page elements */
+.bigtitle .header {
+	font-size: 28px;
+	margin: 0 0 50px;
+}
+#gkMainbody {
+	margin-bottom: 30px;
+}
+#k2Container .itemsContainerWrap article header h2 {
+	font-size: 18px;
+	line-height: 24px;
+}
+article header h1, article header h2 {
+	font-size: 40px;
+}
+article header li:before {
+	display: none;
+}
+article header li {
+	padding-right: 20px;
+}
+article header li:last-child {
+	padding-right: 0;
+}
+.pagination ul li a, 
+.pagination ul li span {
+	margin: 3px 7px 3px 0;
+}
+
+/* Popup fix */
+.gkPopupWrap input[type="text"],
+.gkPopupWrap input[type="password"] {
+	margin-top: 8px;
+}
+
+/* Frontpage elements */
+
+.frontpage #gkDarkBottom:after, 
+.frontpage #gkDarkBottom:before {
+	height: 200px;
+	top: -100px;
+	-webkit-transform: skewY(8deg);
+	-moz-transform: skewY(8deg);
+	-ms-transform: skewY(8deg);
+	-o-transform: skewY(8deg);
+	transform: skewY(8deg);
+}
+.frontpage #gkDarkBottom:after {
+	bottom: -100px;
+	top: auto;
+}
+.frontpage.dark-bottom #gkDarkBottom {
+	bottom: -350px;
+	height: 800px;
+}
+.gkTitle {
+	font-size: 42px;
+	margin: 0 0 16px 0;
+}
+.bigtitle .header {
+	font-size: 28px;
+	margin: 0 0 30px;
+}
+.bigtitle-left .header {
+	font-size: 60px;
+}
+.frontpage .bigtitle-left .header {
+	padding-left: 0px!important;
+}
+.newsletter p {
+	font-size: 20px;
+	margin: 20px 0 32px 0;
+}
+.newsletter input[type="email"] {
+	font-size: 17px;
+	height: 48px;
+	line-height: 48px;
+	width: 60%;
+}
+#gkBottom3 .gkSectionNav {
+	bottom: 120px;
+}
+.frontpage #gkBottom3 {
+	padding: 200px 0;
+}
+.frontpage #gkBottom3:after, 
+.frontpage #gkBottom3:before {
+	height: 200px;
+	-webkit-transform: skewY(8deg);
+	-moz-transform: skewY(8deg);
+	-ms-transform: skewY(8deg);
+	-o-transform: skewY(8deg);
+	transform: skewY(8deg);
+	top: -100px;
+}
+.frontpage #gkBottom3:after {
+	bottom: -100px;
+	top: auto;
+}
+.frontpage .cMods-TopMembers > div .cThumb-Avatar,
+.frontpage .cMods-TopMembers > div .cThumb-Avatar img {
+	height: 60px;
+	width: 60px;
+}
+.frontpage .cMods-TopMembers > div .cThumb-Detail {
+	margin: 0 0 0 70px;
+}
+.frontpage .cMods-TopMembers > div .cThumb-Title {
+	font-size: 14px;
+	margin: 7px 0 8px 0;
+}
+

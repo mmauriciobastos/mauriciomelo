@@ -1,0 +1,282 @@
+/*
+#------------------------------------------------------------------------
+# Music State - October Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+/* Basic elements */
+html {
+	height: 100%;
+}
+body,
+html {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+}
+body {
+	background: #fff url('../../images/common/people_bg.jpg') no-repeat center 0;
+	background-size: cover;
+	font-family: Raleway, Arial, sans-serif;
+	min-height: 100%;
+	font-size: 16px;
+	line-height: 2;
+	color: #777;
+	padding: 0;
+	font-weight: 300;
+	word-wrap: break-word;
+}
+a {
+	color: #e74c3c;
+	text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+	color: #fff;
+}
+
+/* containers */
+#gkPage {
+	min-width: 280px;
+	max-width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+#gkPageTop {
+	background: #222;
+	min-height: 78px;
+	text-align: center;
+	width: 100%;
+}
+#gkPageWrap {
+	background: transparent;
+	padding: 0 0 30px 0;
+	width: 100%;
+}
+#frame {
+	clear: both;
+	margin: 0;
+	overflow: hidden;
+	padding: 42px 0;
+}
+
+/* Logo  */
+#gkLogo {
+	display: inline-block;
+	float: none;
+	height: 77px;
+	margin: 0 auto;
+	padding: 0;
+	text-indent: -9999px;
+}
+#gkLogo img {
+	display: block;
+	margin: 0 auto;
+}
+#gkLogo.cssLogo {
+	background: transparent url('../../images/logo.png') no-repeat 0 0;
+	/* You can specify there logo size and background */
+	height: 77px;
+	width: 229px;
+}
+#gkLogo.text {
+	color: #fff;
+	display: inline-block;
+	font-size: 25px;
+	font-weight: 500;
+	height: auto;
+	line-height: 79px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	text-indent: 0;
+	text-transform: uppercase;
+	min-width: 100px;
+}
+#gkLogo.text > span {
+	display: block;
+	padding: 0;
+}
+#gkLogo.text .gkLogoSlogan {
+	color: #ccc;
+	display: block;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14px;
+	margin-top: -26px;
+	text-align: center;
+}
+
+/* Other elements */
+h2 {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 200;
+	line-height: 1.2;
+	margin: 0 0 50px 0;
+	padding: 0;
+	text-align: center;
+}
+
+fieldset {
+	border: none;
+	margin: 20px auto 0;
+	width: 660px;
+	overflow: hidden;
+}
+p#username,
+p#password {
+	margin: 0 15px 15px 0;
+	float: left;
+	width: 265px;
+}
+p#remember,
+#form-login ul {
+	clear: both;
+}
+label {
+	
+	line-height: 1.2;
+	display: block;
+	margin: 0 0 10px 0;
+	color: #eee;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+div.buttons {
+	margin: 24px 0 0;
+}
+input[type="checkbox"] {
+	margin: 5px 5px 0 0;
+}
+input[type="text"],
+input[type="password"],
+input[type="url"],
+input[type="email"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #c3c3c3;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000;
+	height: 38px;
+	line-height: 39px;
+	max-width: 100%!important;
+	padding: 0 18px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="url"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	background: #fffef4;
+}
+button,
+.button,
+input.button,
+span.button,
+button.button,
+input[type="submit"],
+input[type="button"] {
+	 background: #e74c3c;
+	 border: none;
+	 -webkit-border-radius: 2px;
+	 -moz-border-radius: 2px;
+	 border-radius: 2px;
+	 color: #fff!important;
+	 cursor: pointer;
+	 display: block;
+	 float: left;
+	 font-size: 14px;
+	 font-weight: 400;
+	 height: 38px;
+	 line-height: 39px;
+	 margin: 0 5px 2px 2px;
+	 padding: 0 18px;
+	 text-align: center;
+	 text-shadow: 0 1px 0 rgba(0, 0, 0, .7);
+	 text-transform: uppercase;
+	 -webkit-transition: all .3s ease-out;
+	 -moz-transition: all .3s ease-out;
+	 -o-transition: all .3s ease-out;
+	 transition: all .3s ease-out
+}
+button:hover,
+.button:hover,
+input.button:hover,
+span.button:hover,
+button.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+	background: #fff;
+	color: #000!important;  
+}
+#remember {
+	float: left;
+	width: auto;
+}
+label[for="remember"] {
+	float: left;
+	line-height: 21px;
+}
+/* messages */
+#system-message dt {
+	display: none;
+}
+#system-message-container {
+	margin: 0 auto 5px auto!important;
+	max-width: 640px;
+	padding: 0;
+}
+#system-message dd ul {
+	list-style: none !important;
+	margin: 0!important;
+	padding: 0!important;
+}
+#system-message dd {
+	padding: 5px 12px;
+	color: #000;
+	font-size: 16px;
+	text-align: center;
+	font-weight: 300;
+	margin: 0 0 10px 0;
+	background: #fff;
+}
+#system-message dd.error {
+	color: #fff;
+	background: #e74c3c;
+}
+#system-message dd.notice {
+	color: #fff;
+	background: #000;
+}
+
+@media (max-width:1000px) {
+	body {
+		background-image: url('../../images/common/people_bg_tablet.jpg');
+	}
+}
+
+@media (max-width:720px) {
+	body {
+		background-image: url('../../images/common/people_bg_mobile.jpg');
+	}
+	h2 {
+		font-size: 20px;
+	}
+	fieldset {
+		width: 270px;
+	}
+}

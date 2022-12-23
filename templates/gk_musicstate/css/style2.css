@@ -1,0 +1,406 @@
+/*
+#------------------------------------------------------------------------
+# Music State - October Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+ 
+/* Style 2 */
+
+/* template.css */
+body.style2 #gkBottomSection {
+	background-image: url('../images/style2/bottom_bg.jpg');
+}
+
+a:hover,
+a:active,
+a:focus,
+#gkMainbody div.tags a:hover,
+#gkMainbody a,
+#gkMainbody header h1 a:active,
+#gkMainbody header h1 a:focus,
+#gkMainbody header h1 a:hover,
+#gkMainbody header h2 a:active,
+#gkMainbody header h2 a:focus,
+#gkMainbody header h2 a:hover,
+#k2Container article header h2 a:active,
+#k2Container article header h2 a:focus,
+#k2Container article header h2 a:hover,
+#gkSidebar .box a:hover { 
+	color: #3498db; 
+}
+#gkLogin {
+	background: #3498db;
+}
+#gkBottomSection {
+	background: #172732 url('../images/style2/bottom_bg.jpg') no-repeat center top;
+}
+.box.dark a:active,
+.box.dark a:focus,
+.box.dark a:hover { 
+	color: #3498db!important; 
+}
+.gkPopupWrap h3 a { 
+	color: #3498db;
+}
+.gkSectionNav:before {
+	border: 2px solid #3498db;
+	color: #3498db;
+}
+#gkHeaderMod .gkSectionNav:hover:before,
+#gkBottom3 .gkSectionNav:hover:before {
+	border-color: #3498db;
+	color: #3498db;
+}
+
+/* joomla.css */
+button,
+.button,
+input.button,
+span.button,
+button.button,
+div.button,
+input[type="submit"],
+input[type="button"],
+.pagenav-prev a,
+.pagenav-next a,
+.readon,
+#gkMainbody .itemReadMore,
+#gkMainbody .readmore > a,
+.button.invert:active,
+.button.invert:focus,
+.button.invert:hover {
+	background: #3498db;
+}
+th a:active,
+th a:focus,
+th a:hover { 
+	color: #3498db!important;
+}
+article header a:hover { 
+	color: #3498db !important;
+}
+article header.itemHasImage h1 a:active,
+article header.itemHasImage h1 a:focus,
+article header.itemHasImage h1 a:hover { 
+	color: #3498db!important; 
+}
+ .tooltip-inner strong {
+	background: #3498db;
+}
+#system-message .alert-error { 
+	background: #3498db;
+}
+div.bannerfooter {
+	color: #3498db;
+}
+.article-index {
+	border-left: 2px solid #3498db;
+}
+.result-title:before {
+	color: #3498db;
+}
+.autocompleter-queried {
+	color: #3498db!important;
+}
+
+/* gk_stuff.css */
+.nspPagination li:hover,
+.nspPagination li.active { 
+	background-color: #3498db; 
+}
+.nspNext:hover:after,
+.nspPrev:hover:after { 
+	color: #3498db; 
+}
+#gkBottomSection .nspInfo a:hover,
+#gkBottomSection .nspHeader a:hover,
+#gkBottomSection .nspLinks a:hover {
+	color: #3498db;
+}
+#gkBottomSection .nspPagination li:hover,
+#gkBottomSection .nspPagination li.active { 
+	background-color: #3498db; 
+}
+#gkBottomSection .nspNext:hover:after,
+#gkBottomSection .nspPrev:hover:after { 
+	color: #3498db; 
+}
+.nspMain.grid-left-img .nspInfo1,
+.nspMain.grid-right-img .nspInfo1 {
+	color: #3498db;
+}
+.nspMain.grid-left-img .nspInfo2 > a:active,
+.nspMain.grid-right-img .nspInfo2 > a:active,
+.nspMain.grid-left-img .nspInfo2 > a:focus,
+.nspMain.grid-right-img .nspInfo2 > a:focus,
+.nspMain.grid-left-img .nspInfo2 > a:hover,
+.nspMain.grid-right-img .nspInfo2 > a:hover {
+	color: #3498db;
+}
+.nspMain.grid-left-img .nspHeader a:active,
+.nspMain.grid-right-img .nspHeader a:active,
+.nspMain.grid-left-img .nspHeader a:focus,
+.nspMain.grid-right-img .nspHeader a:focus,
+.nspMain.grid-left-img .nspHeader a:hover,
+.nspMain.grid-right-img .nspHeader a:hover {
+	color: #3498db!important;
+}
+.nspMain.grid-left-img .nspArt:hover,
+.nspMain.grid-right-img .nspArt:hover {
+	background: #3498db;
+}
+.nspMain.grid-big-img .nspInfo1 {
+	color: #3498db;
+}
+.nspMain.grid-big-img .nspInfo1 a {
+	color: #3498db;
+}
+.nspMain.grid-big-img .nspHeader a:active,
+.nspMain.grid-big-img .nspHeader a:focus,
+.nspMain.grid-big-img .nspHeader a:hover {
+	color: #3498db!important;
+}
+.nspMain.grid-big-title .nspInfo1 a {
+	color: #3498db;
+}
+.gkIsWrapper-gk_musicstate figcaption {
+	border-left: 5px solid #3498db;
+}
+.gkIsWrapper-gk_musicstate figcaption > a:active,
+.gkIsWrapper-gk_musicstate figcaption > a:focus,
+.gkIsWrapper-gk_musicstate figcaption > a:hover {
+	color: #3498db;
+}
+.gkIsWrapper-gk_musicstate .gkIsPagination li > small {
+	background: #3498db;
+}
+.gkIsWrapper-gk_musicstate .gkIsPagination li.active,
+.gkIsWrapper-gk_musicstate .gkIsPagination li:active
+.gkIsWrapper-gk_musicstate .gkIsPagination li:focus,
+.gkIsWrapper-gk_musicstate .gkIsPagination li:hover {
+	background: #3498db;
+}
+.gkJSFeed .gkReadon {
+	color: #3498db;
+}
+.gkJSFeedType-photo > h3 a:active,
+.gkJSFeedType-photo > h3 a:focus,
+.gkJSFeedType-photo > h3 a:hover {
+	color: #3498db;
+}
+.gkJSFeedType-user > a > span {
+	background: #3498db;
+}
+.gkPhoto > a {
+	background: #3498db;
+}
+
+/* menu.css */
+#gkMainMenu .gkMenu > ul > li > a:active,
+#gkMainMenu .gkMenu > ul > li > a:focus,
+#gkMainMenu .gkMenu > ul > li > a:hover,
+#gkMainMenu .gkMenu > ul > li.active > a {
+	color: #3498db;	
+}
+#gkMainMenu .gkMenu > ul li div.childcontent {
+	background: #3498db;
+}
+#gkMainMenu .gkMenu > ul li div.childcontent-inner {
+	background: #3498db;
+}
+#gkMainMenu .gkMenu > ul li div.childcontent li {
+	border-top: 1px solid #56bafd;
+}
+#gkMainMenu .gkMenu > ul li div.childcontent li:hover {
+	 background: #56bafd;
+}
+
+/* k2.css */
+
+.k2FeedIcon a:before,
+a.k2FeedIcon:before {
+	color: #3498db;
+}
+.activeCategory a { 
+	color: #3498db; 
+}
+h1 > sup,
+h2 > sup {
+	background: #3498db;
+}
+span#formLog {
+	background: #3498db;
+}
+.k2CalendarBlock table.calendar tr td.calendarDateLinked a:hover {
+	background: #3498db;
+}
+.k2CalendarBlock table.calendar tr td.calendarToday {
+	background: #3498db;
+}
+table.calendar tr td.calendarTodayLinked a {
+	color: #3498db;
+}
+.k2CalendarBlock table.calendar tr td.calendarTodayLinked a:hover {
+	background: #3498db;
+}
+.calendarNavLink { 
+	color: #3498db; 
+}
+.k2TagCloudBlock a:hover { 
+	color: #3498db;
+}
+
+/* easyblog */
+#eblog-wrapper .list-pagination li a,
+#ezblog-body .blog-post .blog-title a:hover,
+#ezblog-body .blog-meta a:hover, 
+#ezblog-body .blog-comments a:hover,
+#ezblog-body .blog-read .blog-meta a:hover, 
+#ezblog-body .blog-read .blog-option a:hover,
+#ezblog-body .blog-read .blog-navi li a:hover,
+#ezblog-body .comment-author,
+#ezblog-head .component-links a.link-email span::before,
+#ezblog-head .component-links a.link-rss span::before,
+#eblog-wrapper .post-tags li a:hover {
+	color: #3498db!important;
+}
+#ezblog-body .blog-meta-bottom a:hover,
+#eblog-wrapper .blog-taglist a:hover,
+#eblog-wrapper .blog-taglist a:hover span {
+	color: #3498db!important;
+}
+#ezblog-menu .blog-navi li .tips {
+	background: #3498db;
+	border-top: 1px solid #56bafd;
+}
+#ezblog-menu .blog-navi li .tips:hover {
+	 background: #3498db;
+}
+#ezblog-menu .blog-navi li.toolbar-item > form button.submit-search {
+	background-color: #3498db;
+}
+
+/* jomsocial.css */
+.joms-button--primary, 
+.joms-button--add, 
+.joms-button--login, 
+.joms-button__reject, 
+.joms-postbox-tab .joms-postbox-save, 
+.joms-postbox-tab .joms-postbox-done, 
+.joms-focus__button--add, 
+.joms-button__next, 
+.joms-button--secondary,
+.joms-button--signup, 
+.joms-focus__button--message, 
+.joms-button--neutral, 
+.joms-button--privacy, 
+.joms-button--more, 
+.joms-button--comment, 
+.joms-button__approve, 
+.joms-postbox-tab .joms-postbox-cancel, 
+.joms-focus__button--options, 
+.joms-button--important {
+	background: #3498db;
+}
+.joms-tab__bar > a.active {
+	border-bottom: 1px solid #3498db;
+	color: #3498db!important;
+}
+.joms-sidebar .joms-button--link:active,
+.joms-sidebar .joms-button--link:focus,
+.joms-sidebar .joms-button--link:hover,
+.joms-body .joms-module__wrapper .app-box-action:active,
+.joms-body .joms-module__wrapper .app-box-action:focus,
+.joms-body .joms-module__wrapper .app-box-action:hover,
+.joms-body .joms-module__wrapper .cUpdatesHelper > a:active,
+.joms-body .joms-module__wrapper .cUpdatesHelper > a:focus,
+.joms-body .joms-module__wrapper .cUpdatesHelper > a:hover {
+	color: #3498db!important;
+}
+.joms-popup__ddcontent a:hover {
+	background: #3498db;
+}
+.joms-subnav--desktop > ul > li > a {
+	color: #3498db;
+}
+.joms-focus__actions--desktop > a,
+.joms-focus__actions--reposition input[type="button"] {
+	background: #3498db!important;
+}
+.joms-focus__actions--desktop > a:active,
+.joms-focus__actions--desktop > a:focus,
+.joms-focus__actions--desktop > a:hover,
+.joms-focus__actions--reposition input[type="button"]:active,
+.joms-focus__actions--reposition input[type="button"]:focus,
+.joms-focus__actions--reposition input[type="button"]:hover {
+	color: #3498db!important;
+}
+.joms-focus__link a.liked {
+	color: #3498db!important;
+}
+.joms-focus__link a.liked svg {
+	fill: #3498db!important;
+}
+.picker__day--today {
+	color: #3498db!important;
+}
+.picker--focused .picker__day--highlighted, 
+.picker__day--highlighted.picker__day--today,
+.picker__day--highlighted:hover {
+	background: #3498db!important;
+}
+.picker__button--today:before {
+	border-top-color: #3498db!important;
+}
+.picker__day--today:before {
+	border-top-color: #3498db!important;
+}
+.joms-progressbar__progress {
+	background: #3498db;
+}
+body .picker__day--infocus:hover, 
+body .picker__day--outfocus:hover {
+	background: #3498db!important;
+}
+.joms-toolbar--desktop > ul > li:hover,
+.joms-toolbar--desktop > ul > li.active {
+	background: #3498db;
+}
+.joms-postbox-photo-progressbar .joms-postbox-photo-progress {
+	background: #3498db!important;
+}
+.joms-landing__action .joms-form > a:active,
+.joms-landing__action .joms-form > a:focus,
+.joms-landing__action .joms-form > a:hover {
+	color: #3498db;
+}
+.joms-js--member-module #latest-members-nav a:active,
+.joms-js--member-module #latest-members-nav a:focus,
+.joms-js--member-module #latest-members-nav a:hover,
+.joms-js--member-module #latest-members-nav a.active-state {
+	color: #3498db!important;
+}
+.joms-focus__date,
+.joms-focus__date.cover {
+	background: #3498db;
+}
+.joms-menu a:hover,
+.joms-menu--user a:hover {
+	background: #3498db;
+}
+
+/* JS v.4.1 improvements */
+.innerpgbar {
+	background: #3498db;
+}
+.joms-popup--privacy a:hover {
+	background-color: #3498db;
+}
+.joms-textarea__attachment button {
+	color: #3498db!important;
+}
+

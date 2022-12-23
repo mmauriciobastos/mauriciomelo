@@ -1,0 +1,1 @@
+[07-Feb-2014 13:09:29 Europe/Berlin] PHP Warning:  fseek() expects parameter 1 to be resource, boolean given in /home/project/public_html/_updates/joomla30/clean_demo/musicstate/administrator/components/com_joomlaupdate/restore.php on line 1541
