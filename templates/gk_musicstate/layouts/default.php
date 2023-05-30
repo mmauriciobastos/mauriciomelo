@@ -263,5 +263,6 @@ $tpl_page_suffix = $page_suffix_output != '' ? ' class="'.$page_suffix_output.'"
    		jQuery("body").fitVids();
 	});
 	</script>
+      <script src="instagram_api/instagram_api.js"  crossorigin="anonymous"></script>
 </body>
 </html>

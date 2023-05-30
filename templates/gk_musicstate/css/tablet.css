@@ -272,7 +272,7 @@ body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(5) {
 
 .items-row > div {
 	margin-bottom: 50px;
-	padding: 0!important;
+	padding: 0 10px 0;
 }
 
 /* Suffixes and other elements */
