@@ -14,9 +14,8 @@ if (width <= 1024) {
     deviceSize = "50%";
 }
 
-let token = 'IGQVJYdjlzN21DeWlGeDVOaElOLXVwUjVwNU5veUx3NVdsTXRmaGFac0tFUTJQNDdBcVdkRFFWVHJVZAFVRazJWN2F3M1RLWk1Hc00yQ2dla3VuTkN0ak8tSms4QjE2c25iaURmSmNSSEhDbzdCODM3NwZDZD';
-let testToken = 'IGQVJWeWtIWlgxVmhCVHlrVE5VdVBmcGY2MTNQTHV1a1JxdnVvUUw5RDRJNVAyVWFUa3NGMlN6ZAkhmbm5HSFlzVHBRM21pdkt3RmJrcXYzYU9iNVdidDh1ZAjZAuWkJwQ3VKc2NuRUZAhSHBFTzJ3SnlWLQZDZD';
-let url = 'https://graph.instagram.com/me/media?fields=id,caption,media_type,thumbnail_url,media_url,permalink,timestamp,username&limit=8&access_token=' + testToken;
+let instaToken = document.querySelector('#instaToken').value;
+let url = 'https://graph.instagram.com/me/media?fields=id,caption,media_type,thumbnail_url,media_url,permalink,timestamp,username&limit=8&access_token=' + instaToken;
 
 async function getData() {
     try {
